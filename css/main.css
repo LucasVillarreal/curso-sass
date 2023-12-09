@@ -1,0 +1,194 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #FFEFE7;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  height: 120px;
+  color: #7C6A0A;
+}
+nav p {
+  font-size: 1.5em;
+  padding-left: 30px;
+}
+nav .icons-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 30px;
+  gap: 15px;
+}
+nav .icons-nav button {
+  background: none;
+  border-style: none;
+}
+
+.main-section article {
+  display: flex;
+  width: auto;
+  color: #7C6A0A;
+}
+.main-section article .info-section {
+  width: 50%;
+  margin-left: 8%;
+}
+.main-section article .info-section h1 {
+  font-size: 2.3em;
+}
+.main-section article .info-section p {
+  font-size: 1em;
+}
+.main-section article .info-section button {
+  width: 145px;
+  height: 40px;
+  color: #FFFFFF;
+  background-color: #FA9500;
+  border-radius: 20px;
+  border: none;
+  text-align: start;
+  padding: 5px 20px;
+  margin-top: 50px;
+}
+.main-section article .image-section {
+  width: 50%;
+  text-align: end;
+  margin-right: 5%;
+}
+.main-section article .image-section img {
+  border-radius: 10px;
+  width: 25vw;
+}
+.main-section section {
+  margin: 0 auto;
+  width: 90vw;
+}
+.main-section section h2 {
+  color: #7C6A0A;
+  font-weight: 500;
+}
+.main-section section .healtcare .card-section, .main-section section .furniture .card-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10%;
+  flex-wrap: wrap;
+}
+.main-section section .healtcare .card-section .product-card, .main-section section .furniture .card-section .product-card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 324px;
+  height: 470px;
+  background-color: #FFDAC6;
+  border-radius: 8px;
+  margin-bottom: 75px;
+}
+.main-section section .healtcare .card-section .product-card svg, .main-section section .furniture .card-section .product-card svg {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.main-section section .healtcare .card-section .product-card div, .main-section section .furniture .card-section .product-card div {
+  width: 241px;
+  height: 300px;
+  margin: 57px 41px 16px;
+}
+.main-section section .healtcare .card-section .product-card div img, .main-section section .furniture .card-section .product-card div img {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+}
+.main-section section .healtcare .card-section .product-card .product-card-text, .main-section section .furniture .card-section .product-card .product-card-text {
+  margin: 0 auto;
+}
+.main-section section .healtcare .card-section .product-card h3, .main-section section .healtcare .card-section .product-card p, .main-section section .furniture .card-section .product-card h3, .main-section section .furniture .card-section .product-card p {
+  margin: 0;
+  color: #7C6A0A;
+  text-align: start;
+}
+.main-section section .healtcare .card-section .product-card h3, .main-section section .furniture .card-section .product-card h3 {
+  font-size: 1em;
+}
+.main-section section .healtcare .card-section .product-card p, .main-section section .furniture .card-section .product-card p {
+  font-size: 0.8em;
+}
+.main-section section .furniture .card-section .product-card {
+  background-color: #BABD8D;
+}
+.main-section section .furniture .card-section .product-card h3, .main-section section .furniture .card-section .product-card p {
+  color: #FFFFFF;
+}
+.main-section .about-section .why-us .mission-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.main-section .about-section .why-us .mission-section .earth, .main-section .about-section .why-us .mission-section .innovation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.main-section .about-section .why-us .mission-section .earth p, .main-section .about-section .why-us .mission-section .innovation p {
+  font-weight: 500;
+  font-size: 30px;
+  color: #FA9500;
+}
+.main-section .gallery .gallery-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.main-section .gallery .gallery-img img {
+  width: 30vw;
+  height: 70vh;
+  object-fit: cover;
+  object-position: 5px 35%;
+  border-radius: 16px;
+}
+.main-section .gallery .gallery-img img:hover {
+  transform: scale(1.1);
+}
+.main-section .location {
+  margin-bottom: 50px;
+}
+.main-section .location .map iframe {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.main-section .location .map h2, .main-section .location .map p {
+  color: #FA9500;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background-color: #FA9500;
+  color: #FFFFFF;
+  width: 100%;
+  height: 250px;
+}
+footer section {
+  width: 90vw;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+footer .social-media {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}/*# sourceMappingURL=main.css.map */
